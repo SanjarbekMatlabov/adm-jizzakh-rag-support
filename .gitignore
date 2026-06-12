@@ -1,0 +1,30 @@
+# Environment
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.Python
+data/
+# Vector store cache
+vector_db/*.faiss
+vector_db/*.pkl
+vector_db/index/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Data (uncomment if you don't want to commit large PDFs)
+# data/*.pdf
